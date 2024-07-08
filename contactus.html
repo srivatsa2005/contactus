@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #logo{
+        width: 200px;
+    }
+    header{
+        background-color: black;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        position: fixed;
+        z-index: 1;
+    }
+    #title{
+        color: white;
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        margin-left: 432px;
+    }
+    #head1{
+        margin-top: 120px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 40px;
+        font-size: 60px;
+        text-decoration: underline;
+    }
+    #cont{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 45px;
+    }
+    #maindiv{
+        display: flex;
+    }
+    #maps{
+        width: 500px;
+        height: 300px;
+        margin-top: 160px;
+        margin-left: 40px;
+        border-radius: 8px;
+    }
+    #maps:hover{
+        cursor: pointer;
+    }
+    #qc{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    #inputbox{
+        margin-left: 40px;
+        width: 800px;
+        height: 100px;
+        border: 2px solid black;
+        padding-left: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+    }
+    #submit{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+        background-color: grey;
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: large;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <header>
+        <img id="logo" src="https://github.com/srivatsa2005/mainproj-html-and-css/blob/main/colorlogo.png?raw=true">
+        <p id="title">Contact with Rhyno</p>
+    </header>
+    <div id="maindiv">
+    <div>
+        <h1 id="head1">Contact us :</h1>
+        <p id="cont">Mail: <a href="info@rhyno.in">info@rhyno.in</a></p>
+        <p id="cont">Mobile no.: +91-9023987528</p>
+        <p id="cont">Location: Rhyno Wheels Private limited, Near UG hostel gate #2,<br> Behind PDEU,Raisan, Gandhinagar, Gujarat, India.</p>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.436130184221!2d72.66315307477414!3d23.15427721140142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e802cfe647e33%3A0x983a11b5cb484f15!2sPandit%20Deendayal%20Energy%20University-%20PDEU%20(Formerly%20PDPU)!5e0!3m2!1sen!2sin!4v1720436569358!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="maps"></iframe>
+    </div>
+</div>
+<div>
+    <h1 id="qc">Let us know your Quarys and Complaints :</h1>
+    <span>
+    <input id="inputbox" placeholder="Enter youe quarys here ?" type="text" accept="text" maxlength="1000" required>
+    <button id="submit">submit</button>
+</span>
+</div>
+</body>
+</html>
